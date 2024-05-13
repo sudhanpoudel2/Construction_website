@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    background : linear-gradient(to top , rgba(40, 40, 6, 0.5)50%,rgba(21, 21, 4, 0.5)50%),url(2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    height:75px;
+    margin: auto;
+}
+.icon{
+    width: 800px;
+    float: left;
+    height: 50px;
+    margin-top: 250px;
+    margin-left: 480px;
+    
+}
+.logo{
+    color: rgb(241, 241, 241);
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+.menu{
+    width: 400px;
+    float: right;
+    height: 70px;
+    margin-right: 320px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul li{
+    list-style: none;
+    margin-right: 100px;
+    margin-top: -480px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgba(230, 230, 17, 0.919);
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.srch {
+    width: 100%;
+    max-width: 500px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    padding: 20px 30px;
+    font-size: 24px;
+    border: 2px solid rgb(251, 250, 250);
+    border-radius: 100px;
+}
+
+.srch input[type="text"] {
+    flex: 1;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #b1bf15;
+    cursor: pointer;
+}
+  
